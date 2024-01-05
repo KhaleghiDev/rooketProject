@@ -8,7 +8,8 @@ We want to write a cms based on the Laravel framework that can manage portfolios
 And this project will be a completely educational project that will be further developed
 We will start with Laravel 10
 
-### The items we make in this project
+## The items we make in this project
+
 1. Login and register with one of the packages in the management panel
 1. Content management in the management panel
 1. Management of pages in the management panel
@@ -19,6 +20,11 @@ We will start with Laravel 10
 8. Likes and comments for users
 9. And...
 
+
+- [x] Install laravel and README.md edit 
+- [ ] Add admin panel and masterpage  in project 
+- [ ] Add autoration in [Laravel Breeze](https://laravel.com/docs/10.x/starter-kits#laravel-breeze)
+- [ ] Add ...
 
 ## Learning Laravel
 
