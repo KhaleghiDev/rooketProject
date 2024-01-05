@@ -7,9 +7,22 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About CmsRoocket
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+We want to write a cms based on the Laravel framework that can manage portfolios, blogs, landing pages, and companies.
+And this project will be a completely educational project that will be further developed
+We will start with Laravel 10
+
+### The items we make in this project
+1- Login and register with one of the packages in the management panel
+2- Content management in the management panel
+3- Management of pages in the management panel
+4- Management of products, projects and certificates, etc. in the management panel
+5- Site settings
+6- Profile for users
+7- Order registration for products and... for users
+8- Likes and comments for users
+9- And...
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
