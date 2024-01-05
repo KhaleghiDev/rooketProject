@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+// Route::prefix('adminpanel')->group(function () {
+//     return view('admin.index');
+// });
+Route::prefix('admin')->group(function () {
+
+    Route::get('/', function () {
+        return view('admin.index');
+    });
+    // Route::get('/users', function () {
+    //     // Matches The "/admin/users" URL
+    // });
 });
