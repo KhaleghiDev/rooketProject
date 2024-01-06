@@ -23,7 +23,18 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/', function () {
         return view('admin.index');
+    })->name("dashbord");
+    Route::prefix('content')->group(function () {
+        Route::get('/', function () {
+            return view('admin.content.index');
+        })->name('admin.content.list');;
     });
+    Route::prefix('category')->group(function () {
+        Route::get('/', function () {
+            return view('admin.category.index');
+        })->name('admin.category.list');
+    });
+
     // Route::get('/users', function () {
     //     // Matches The "/admin/users" URL
     // });
