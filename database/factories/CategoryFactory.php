@@ -17,7 +17,10 @@ class CategoryFactory extends Factory
     public function definition(): array
     {
         return [
-//
+            'title' => $faker->text(50),
+            'slug' => $faker->slug,
+            'description' => $faker->paragraph(rand(8,25)),
+            'meta_description'=>$faker->paragraph(1),
         ];
     }
 }
