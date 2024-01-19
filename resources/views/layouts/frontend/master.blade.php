@@ -18,8 +18,11 @@
         <main class="flex-shrink-0">
             <!-- Navigation-->
           @include('layouts.frontend.sections.navbar')
+          @yield('content')
             <!-- Header-->
             @include('layouts.frontend.sections.header')
+
+
             <!-- Features section-->
             <section class="py-5" id="features">
                 <div class="container px-5 my-5">
